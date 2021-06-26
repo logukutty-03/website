@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.logoname {
+  font-family: tw cen mt;
+  font-weight: bold;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  z-index: 999;
+}
+
+.topnav a {
+  margin-left: 25px;
+  float: left;
+    font-family: tw cen mt;
+    font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.topnavright{
+  float: right;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #325992;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.topnav img{
+  width: 60px;
+float: left;
+padding-left: 5%;
+padding-right: 1%;}
+
+
+  #header input{
+
+    margin-top: 10px;
+    margin-right: 45px;
+
+  }
